@@ -1,11 +1,26 @@
-import './App.css'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
-  return(
-    <h1 className="text-4xl text-center text-blue-500 font-bold">
-      WElcome to my portfolio
-    </h1>
-  )
+  return (
+    <div className="bg-gray-800 text-white min-h-screen">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
