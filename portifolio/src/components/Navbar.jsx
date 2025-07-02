@@ -11,7 +11,7 @@ const Navbar = () => {
           href="#hero"
           className="text-white text-2xl font-bold hover:text-teal-400 transition duration-300"
         >
-          Your Name
+          Karl
         </a>
 
         {/* Mobile Menu Button */}
